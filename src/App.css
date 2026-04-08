@@ -229,7 +229,7 @@
   }
 
   .hero__areas {
-    margin-top: calc(clamp(8.8px, 1.54vw, 19.8px) - 122px);
+    margin-top: calc(clamp(8.8px, 1.54vw, 19.8px) + 3px);
   }
 }
 
