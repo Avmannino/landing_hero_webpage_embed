@@ -141,7 +141,7 @@
 }
 
 .hero__areas {
-  margin-top: calc(clamp(8.8px, 1.54vw, 19.8px) + 35px);
+  margin-top: calc(clamp(8.8px, 1.84vw, 19.8px) + 35px);
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -229,7 +229,7 @@
   }
 
   .hero__areas {
-    margin-top: calc(clamp(8.8px, 1.54vw, 19.8px) + 35px + 8px);
+    margin-top: calc(clamp(8.8px, 1.54vw, 19.8px) + 35px + 8px + 35px);
   }
 }
 
@@ -274,7 +274,7 @@
   }
 
   .hero__areas {
-    margin-top: calc(clamp(8.8px, 1.54vw, 19.8px) + 35px + 8px + 30px);
+    margin-top: calc(clamp(8.8px, 1.54vw, 19.8px) + 35px + 8px + 50px);
   }
 
   .hero__headline {
