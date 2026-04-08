@@ -223,6 +223,16 @@
   }
 }
 
+@media (min-width: 768px) {
+  .hero__headline {
+    margin-top: -10px;
+  }
+
+  .hero__areas {
+    margin-top: calc(clamp(8.8px, 1.54vw, 19.8px) + 35px + 8px);
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .hero__inner {
     width: min(100%, 860px);
@@ -260,7 +270,7 @@
 
 @media (min-width: 1800px) {
   .hero__logo {
-    width: 616px;
+    width: 647px;
   }
 
   .hero__headline {
