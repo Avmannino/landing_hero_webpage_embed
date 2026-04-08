@@ -141,7 +141,7 @@
 }
 
 .hero__areas {
-  margin-top: clamp(8px, 1.4vw, 18px);
+  margin-top: calc(clamp(8.8px, 1.54vw, 19.8px) + 35px);
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;
