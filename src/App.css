@@ -273,6 +273,10 @@
     width: 647px;
   }
 
+  .hero__areas {
+    margin-top: calc(clamp(8.8px, 1.54vw, 19.8px) + 35px + 8px + 30px);
+  }
+
   .hero__headline {
     font-size: clamp(2.082rem, 1.481rem + 0.926vw, 3.147rem);
   }
