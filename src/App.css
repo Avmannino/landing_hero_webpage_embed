@@ -204,11 +204,11 @@
   }
 
   .hero__areas {
-    width: 78%;
-    padding: 11px 13px;
-    letter-spacing: 0.07em;
-    font-size: clamp(0.5rem, 0.455rem + 0.185vw, 0.655rem);
-    column-gap: 5px;
+    width: 90%;
+    padding: 9px 12px;
+    letter-spacing: 0.05em;
+    font-size: clamp(0.4rem, 1.7vw, 0.5rem);
+    column-gap: 4px;
     row-gap: 4.8px;
     max-width: min(100%, 614px);
     margin-top: 24px;
