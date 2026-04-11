@@ -22,7 +22,14 @@ function App() {
             <span>Precision &amp; Excellence</span>
           </h1>
 
-          <div className="hero__actions" />
+          <div className="hero__actions">
+            <a href="#services" className="hero__button hero__button--filled">
+              Our Services
+            </a>
+            <a href="#quote" className="hero__button hero__button--outline">
+              Request a Quote
+            </a>
+          </div>
 
           <div className="hero__areas">
             <span>NYC</span>
