@@ -36,7 +36,7 @@
   align-items: center;
   justify-content: center;
   padding:
-    clamp(24px, 4vw, 56px)
+    calc(clamp(24px, 4vw, 56px) - 30px)
     clamp(16px, 3vw, 40px);
 }
 
@@ -88,7 +88,7 @@
   justify-content: center;
   align-items: center;
   gap: clamp(12px, 1.8vw, 18px);
-  margin-top: clamp(8px, 1.2vw, 16px);
+  margin-top: clamp(20px, 2.5vw, 36px);
 }
 
 .hero__button {
