@@ -1,7 +1,8 @@
 .hero {
   position: relative;
   min-height: 100svh;
-  width: 100%;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
   overflow: hidden;
   background:
     linear-gradient(180deg, rgba(10, 10, 10, 0.45), rgba(10, 10, 10, 0.78)),
@@ -208,7 +209,7 @@
     max-width: 92%;
     padding: 8px 12px;
     letter-spacing: 0.04em;
-    font-size: clamp(0.44rem, 1.9vw, 0.54rem);
+    font-size: clamp(0.5rem, 2.2vw, 0.6rem);
     column-gap: 3px;
     row-gap: 4.8px;
     flex-wrap: nowrap;
