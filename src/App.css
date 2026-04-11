@@ -208,7 +208,7 @@
     max-width: 92%;
     padding: 8px 12px;
     letter-spacing: 0.04em;
-    font-size: clamp(0.36rem, 1.55vw, 0.46rem);
+    font-size: clamp(0.44rem, 1.9vw, 0.54rem);
     column-gap: 3px;
     row-gap: 4.8px;
     flex-wrap: nowrap;
