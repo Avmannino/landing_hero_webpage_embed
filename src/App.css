@@ -152,7 +152,8 @@
   padding:
     clamp(8px, 0.959vw, 11px)
     clamp(12px, 1.919vw, 22px);
-  border: 1px solid rgba(255, 255, 255, 0.14);
+  border: none;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(4px);
   color: rgba(255, 255, 255, 0.72);
@@ -181,17 +182,20 @@
 
   .hero__logo {
     width: min(84vw, 360px);
+    transform: translateY(-10px);
   }
 
   .hero__headline {
     width: 100%;
     font-size: clamp(1.136rem, 4.208vw, 1.683rem);
     line-height: 1.35;
+    margin-top: -17px;
   }
 
   .hero__actions {
     flex-direction: column;
-    gap: 12px;
+    gap: 17px;
+    margin-top: 20px;
   }
 
   .hero__button {
