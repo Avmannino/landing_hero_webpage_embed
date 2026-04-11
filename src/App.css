@@ -206,9 +206,9 @@
   .hero__areas {
     width: 78%;
     padding: 11px 13px;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.07em;
     font-size: clamp(0.5rem, 0.455rem + 0.185vw, 0.655rem);
-    column-gap: 8.1px;
+    column-gap: 5px;
     row-gap: 4.8px;
     max-width: min(100%, 614px);
     margin-top: 24px;
