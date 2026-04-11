@@ -228,7 +228,7 @@
 
 @media (min-width: 768px) {
   .hero__headline {
-    margin-top: 5px;
+    margin-top: -5px;
   }
 
   .hero__areas {
