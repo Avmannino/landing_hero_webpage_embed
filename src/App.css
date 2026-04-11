@@ -204,13 +204,15 @@
   }
 
   .hero__areas {
-    width: 90%;
-    padding: 9px 12px;
-    letter-spacing: 0.05em;
-    font-size: clamp(0.4rem, 1.7vw, 0.5rem);
-    column-gap: 4px;
+    width: auto;
+    max-width: 92%;
+    padding: 8px 12px;
+    letter-spacing: 0.04em;
+    font-size: clamp(0.36rem, 1.55vw, 0.46rem);
+    column-gap: 3px;
     row-gap: 4.8px;
-    max-width: min(100%, 614px);
+    flex-wrap: nowrap;
+    overflow: hidden;
     margin-top: 24px;
   }
 
