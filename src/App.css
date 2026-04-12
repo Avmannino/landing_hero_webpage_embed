@@ -23,7 +23,7 @@
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(180deg, rgba(0, 0, 0, 1.00), rgba(0, 0, 0, 0.65)),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.45)),
     radial-gradient(circle at center, rgba(255, 255, 255, 0.035), transparent 52%);
   pointer-events: none;
 }
@@ -53,8 +53,11 @@
 .hero__logo-wrap {
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: start;
+  align-items: start;
+  position: absolute;
+  top: 1vh;
+  left: 5vh;
 }
 
 .hero__logo {
@@ -69,11 +72,11 @@
   width: min(100%, 700px);
   margin: 0;
   color: #ffffff;
-  font-size: clamp(1.084rem, 0.784rem + 1.346vw, 2.243rem);
+  font-size: clamp(1.4rem, 0.912rem + 2.1vw, 3.28rem);
   font-weight: 600;
   line-height: 1.25;
   letter-spacing: -0.01em;
-  text-wrap: balance;
+  text-wrap: pretty;
   text-shadow: 0 2px 12px rgba(0, 0, 0, 0.28);
 }
 
@@ -187,7 +190,7 @@
 
   .hero__headline {
     width: 100%;
-    font-size: clamp(1.136rem, 4.208vw, 1.683rem);
+    font-size: clamp(1.477rem, 4.17vw, 2.188rem);
     line-height: 1.35;
     margin-top: -17px;
   }
@@ -261,8 +264,13 @@
     width: min(100%, 1180px);
   }
 
+  .hero__logo {
+    width: clamp(200px, 10.8vw, 277px);
+  }
+
   .hero__headline {
-    width: min(100%, 720px);
+    width: min(100%, 1020px);
+    font-size: clamp(3.2rem, 1.3rem + 2.25vw, 4.3rem);
   }
 
   .hero__button {
@@ -271,18 +279,17 @@
   }
 }
 
-@media (min-width: 1800px) {
-  .hero__logo {
-    width: 537px;
+@media (min-width: 2560px) {
+  .hero__headline {
+    font-size: clamp(3.4rem, 1.5rem + 2.5vw, 5rem);
   }
+}
 
+@media (min-width: 1800px) {
   .hero__areas {
     margin-top: 39px;
   }
 
-  .hero__headline {
-    font-size: clamp(1.682rem, 1.196rem + 0.748vw, 2.541rem);
-  }
 }
 
 @media (max-height: 700px) and (min-width: 768px) {
@@ -299,9 +306,7 @@
     width: clamp(219px, 21.9vw, 365px);
   }
 
-  .hero__headline {
-    font-size: clamp(1.01rem, 0.748rem + 1.047vw, 1.795rem);
-  }
+
 
   .hero__areas {
     margin-top: 4px;

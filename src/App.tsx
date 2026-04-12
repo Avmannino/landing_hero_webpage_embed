@@ -7,7 +7,7 @@ function App() {
       <div className="hero__background" />
       <div className="hero__overlay" />
 
-      <section className="hero__content">
+      {/* <section className="hero__content">
         <div className="hero__inner">
           <div className="hero__logo-wrap">
             <img
@@ -18,8 +18,9 @@ function App() {
           </div>
 
           <h1 className="hero__headline">
-            Transforming Commercial Spaces with{" "}
-            <span>Precision &amp; Excellence</span>
+            Quality That Speaks
+            <br />
+            <span>Design That Inspires.</span>
           </h1>
 
           <div className="hero__actions">
@@ -44,7 +45,7 @@ function App() {
       </section>
 
       <div id="services" />
-      <div id="quote" />
+      <div id="quote" /> */}
     </main>
   );
 }
